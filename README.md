@@ -1,28 +1,8 @@
-
-# Longmeet - Let's Thango 
-
-A web application that leverages pure WebRTC protocal, Google Firestore as a signaling server, and Chromium Tab sharing protocal to allow screen sharing with audio, which enable the ability for folks to catch up and enjoy music and videos together despite the distance.
-
-  <a href="https://letsthango.web.app" target="_blank">Application</a>   
-
-# Motivation
-I'm currently in a long distance relationship myself and has been for the past three years. I understand the longing desire to watch and share experiences with your partner, and how most platforms out there are not dedicate to this need, while allowing video conversation simultaneously. I am setting out to solve the problem once and for all, hence the creation of Let's Thango.
-
-# Features
-- Sharing screen with audio using Chromium-based browsers.     
-<img width="600" src="showcase/chromium_share.png" />     
-
-- Enjoy video at 60fps along with high quality audio.   
-- Live Video Chat between parties.     
-- Audio Only Chat betwen parties.       
-
-
 # To Run this Locally
 
 - use "npm install" in project directory
 - Setup Firebase in Shared / Index.ts file
 - then hit "npm start"
-
 
 # Instruction
 1. The flow is relatively straighforward. One user can create the call by clicking *Create Call*, then proceed to share the Call ID by clicking on the Location pin, which will copy the ID to their clipboard. 
